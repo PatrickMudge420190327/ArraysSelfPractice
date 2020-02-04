@@ -5,6 +5,7 @@
  */
 package arrayselfpractice;
 
+import java.util.Arrays;
 /**
  *
  * @author 420190327
@@ -19,6 +20,11 @@ public class ArraySelfPractice {
         for (int i=0; i<Food.length;i++){
             System.out.println(Food[i]);
         }
+        System.out.println(Arrays.toString(Food));
+        
+        int[] Nums = {21, 43, 13, 64, 76 ,34};
+        Arrays.sort(Nums);
+        System.out.println(Arrays.toString(Nums));
     }
     
 }

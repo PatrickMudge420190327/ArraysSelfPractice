@@ -25,6 +25,26 @@ public class ArraySelfPractice {
         int[] Nums = {21, 43, 13, 64, 76 ,34};
         Arrays.sort(Nums);
         System.out.println(Arrays.toString(Nums));
+        
+        
+        //Two Dimensional Arrays
+        int[][] MultiNums = new int[3][3];
+        MultiNums[0][0] = 1;
+        MultiNums[0][1] = 2;
+        MultiNums[0][2] = 3;
+        
+        MultiNums[1][0] = 4;
+        MultiNums[1][1] = 5;
+        MultiNums[1][2] = 6;
+        
+        MultiNums[2][0] = 7;
+        MultiNums[2][1] = 8;
+        MultiNums[2][2] = 9;
+        
+        for(int i = 0; i < MultiNums.length; i++) {
+            System.out.println(Arrays.toString(MultiNums[i]));
+        }
+
     }
     
 }

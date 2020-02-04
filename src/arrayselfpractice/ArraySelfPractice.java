@@ -44,6 +44,7 @@ public class ArraySelfPractice {
         for(int i = 0; i < MultiNums.length; i++) {
             System.out.println(Arrays.toString(MultiNums[i]));
         }
+        System.out.println(Arrays.toString(MultiNums[0]));
 
     }
     
